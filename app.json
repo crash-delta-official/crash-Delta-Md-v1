@@ -19,46 +19,6 @@
       "description": "Bot WhatsApp Number without '+' (e.g., 947XXXXXXXX)",
       "required": true,
       "value": ""
-    },
-    "online": {
-      "description": "0 = Always Online, 1 = Always Offline",
-      "required": false,
-      "value": "1"
-    },
-    "autotyping": {
-      "description": "0 = Disable, 1 = Auto Typing, 2 = Auto Recording",
-      "required": false,
-      "value": "0"
-    },
-    "msgread": {
-      "description": "0 = Don't mark as read, 1 = Mark commands only, 2 = Mark all",
-      "required": false,
-      "value": "0"
-    },
-    "statusreact": {
-      "description": "0 = Disable, 1 = Enable",
-      "required": false,
-      "value": "1"
-    },
-    "statusread": {
-      "description": "0 = Disable, 1 = Enable",
-      "required": false,
-      "value": "1"
-    },
-    "bottype": {
-      "description": "0 = Non-Button Mode, 1 = WhatsApp Only, 2 = WhatsApp & Business",
-      "required": false,
-      "value": "2"
-    },
-    "worktype": {
-      "description": "0 = Me & Channel, 1 = Me + Inbox, 2 = Me + Groups, 3 = Everyone",
-      "required": false,
-      "value": "3"
-    },
-    "owner": {
-      "description": "Comma-separated list of owner phone numbers (without +)",
-      "required": true,
-      "value": "94719036042,94771853633"
     }
   },
   "formation": {
