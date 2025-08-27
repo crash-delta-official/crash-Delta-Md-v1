@@ -4,11 +4,7 @@
   "repository": "https://github.com/your-username/your-repo-name",
   "logo": "https://i.ibb.co/dTCVJJb/temp-image.jpg",
   "keywords": ["whatsapp", "bot", "baileys", "multi-device", "cdt-md", "nodejs"],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ],
+  "stack": "container",
   "env": {
     "SESSION_ID": {
       "description": "Type your WhatsApp session ID (e.g., CRASH_DELTA_MD_947xxxxxxxx)",
