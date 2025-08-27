@@ -1,10 +1,12 @@
 {
   "name": "Crash Delta MD",
-  "description": "🔥 WhatsApp bot built with Baileys MD – Crash Delta Edition",
+  "description": "🔥 WhatsApp bot built with Baileys MD – Crash Delta Edition. Deploys via Docker.",
   "repository": "https://github.com/your-username/your-repo-name",
   "logo": "https://i.ibb.co/dTCVJJb/temp-image.jpg",
-  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "cdt-md", "nodejs"],
+  "keywords": ["whatsapp", "bot", "baileys", "multi-device", "docker", "nodejs"],
+
   "stack": "container",
+
   "env": {
     "SESSION_ID": {
       "description": "Type your WhatsApp session ID (e.g., CRASH_DELTA_MD_947xxxxxxxx)",
@@ -17,12 +19,13 @@
       "value": ""
     }
   },
+
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   },
-  "stack": "heroku-24",
+
   "success_url": "/"
 }
